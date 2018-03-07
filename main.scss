@@ -1,0 +1,150 @@
+@charset "UTF-8";
+test{
+    color: green;
+}
+body {
+    background-color: antiquewhite;
+    
+    color: gray;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: cornsilk;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+#Home {background-image: url(images/desert.gif)}
+#Resume {background-image: url(images/foggy.jpg)}
+#About {background-image: url(images/desert.gif);}
+#Contact {background-image: url(images/flowers.jpg)}
+
+a { text-decoration : none; 
+    color : cornsilk;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+a:hover {
+    text-decoration: underline;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-family: sans-serif;
+    color: plum;
+    text-decoration: underline;
+}
+.resume {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.C3 {
+    text-decoration: none;
+    color: plum;
+    cursor: pointer;
+}
+.C3:hover {
+    text-decoration: underline;
+}
+.ccolor {
+    color: plum;
+}
+.Della {
+    text-decoration: none;
+    color: plum;
+    cursor: pointer;
+}
+.dcolor {
+    color: plum;
+}
+.Coupe {
+    text-decoration: none;
+    color: plum;
+    cursor: pointer;
+}
+.bcolor {
+    color: plum;
+}
+.home {
+    text-decoration: none;
+    color: plum;
+    cursor: pointer;
+}
+.homec {
+    color: plum;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-instagram {
+    background-image: url(insta.jpg) ;
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+    width: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+.fa-twitter {
+   background-image:url(twitter.jpg);
+    color: white;
+    padding: 50px;
+    width: 30px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.phone {
+    position: relative;
+}
+p {
+    color: gray;
+    font-family: sans-serif;
+}
+h2 {
+    color: plum;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.RS {
+    color: plum;
+}
+.meep {
+    color: plum;
+}
